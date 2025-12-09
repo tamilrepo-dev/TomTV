@@ -21,10 +21,10 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Generate tamil.m3u
+      - name: Generate Tamil.m3u
         run: |
           echo "📥 Fetching Jiotv.json..."
-          JSON_URL="https://playify.pages.dev/Jiotv.json"
+          JSON_URL="https://jtv.pfy.workers.dev"
           JSON=$(curl -sf \
             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" \
             -H "Accept: application/json" \

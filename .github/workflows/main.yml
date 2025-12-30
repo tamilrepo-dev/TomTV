@@ -18,33 +18,33 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Verify others.m3u exists
+      - name: Verify other.m3u exists
         run: |
-          OTHERS="workflows/others.m3u"
-          if [ ! -f "$OTHERS" ]; then
-            echo "❌ $OTHERS not found — aborting"
+          OTHER_M3U=".github/workflows/other.m3u"
+          if [ ! -f "$OTHER_M3U" ]; then
+            echo "❌ $OTHER_M3U not found — aborting"
             exit 1
           fi
-          echo "✅ $OTHERS located."
+          echo "✅ $OTHER_M3U located."
 
-      - name: Normalize others.m3u
+      - name: Normalize other.m3u
         run: |
-          OTHERS="workflows/others.m3u"
+          OTHER_M3U=".github/workflows/other.m3u"
           sudo apt-get update && sudo apt-get install -y dos2unix
-          sed -i '1s/^\xEF\xBB\xBF//' "$OTHERS"
-          dos2unix "$OTHERS" 2>/dev/null || sed -i 's/\r$//' "$OTHERS"
-          sed -i 's/[ \t]*$//' "$OTHERS"
+          sed -i '1s/^\xEF\xBB\xBF//' "$OTHER_M3U"
+          dos2unix "$OTHER_M3U" 2>/dev/null || sed -i 's/\r$//' "$OTHER_M3U"
+          sed -i 's/[ \t]*$//' "$OTHER_M3U"
 
-      - name: Build main.m3u (Live Tamil + others.m3u)
+      - name: Build main.m3u (Live Tamil + other.m3u)
         id: build_main
         run: |
           OUTPUT="main.m3u"
-          OTHERS="workflows/others.m3u"
+          OTHER_M3U=".github/workflows/other.m3u"
 
           # 1️⃣ Header
           echo "#EXTM3U x-tvg-url=\"https://iptv-org.github.io/epg/guides/tamil.xml\"" > "$OUTPUT"
 
-          # 2️⃣ ✅ Fetch & inject live Tamil channels (your 31)
+          # 2️⃣ ✅ Fetch & inject live Tamil channels (your 31 exact ones)
           echo "# === LIVE TAMIL (JioTV) ===" >> "$OUTPUT"
           JSON_URL="https://jtv.pfy.workers.dev"
           JSON=$(curl -sfL --max-time 30 \
@@ -194,25 +194,25 @@ jobs:
             else empty end
           ' >> "$OUTPUT"
 
-          # 3️⃣ Append others.m3u (pass-through, skip its #EXTM3U if present)
+          # 3️⃣ Append static channels from .github/workflows/other.m3u
           echo "" >> "$OUTPUT"
-          echo "# === STATIC CHANNELS (from workflows/others.m3u) ===" >> "$OUTPUT"
+          echo "# === STATIC CHANNELS (from .github/workflows/other.m3u) ===" >> "$OUTPUT"
           awk '
             /^#EXTM3U/ { next }
             NF == 0 { next }
             { print }
-          ' "$OTHERS" >> "$OUTPUT"
+          ' "$OTHER_M3U" >> "$OUTPUT"
 
           # 4️⃣ Stats
           TAMIL=$(grep -c '^#EXTINF:-1.*group-title="Tamil"' "$OUTPUT" 2>/dev/null || echo 0)
-          OTHERS_COUNT=$(grep -c '^#EXTINF' "$OUTPUT" 2>/dev/null || echo 0)
-          OTHERS_COUNT=$((OTHERS_COUNT - TAMIL))
-          TOTAL=$((TAMIL + OTHERS_COUNT))
+          STATIC=$(grep -c '^#EXTINF' "$OUTPUT" 2>/dev/null || echo 0)
+          STATIC=$((STATIC - TAMIL))
+          TOTAL=$((TAMIL + STATIC))
           echo "✅ main.m3u built with $TOTAL channels:"
           echo "   🎯 Live Tamil (JioTV): $LIVE_COUNT (found: $TAMIL)"
-          echo "   📦 Static (others.m3u): $OTHERS_COUNT"
+          echo "   📦 Static (other.m3u): $STATIC"
           echo "tamil=$TAMIL" >> "$GITHUB_OUTPUT"
-          echo "others=$OTHERS_COUNT" >> "$GITHUB_OUTPUT"
+          echo "static=$STATIC" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
 
           if [ "$TAMIL" -eq 0 ]; then
@@ -230,5 +230,5 @@ jobs:
             echo "➡️ No changes — skipping commit"
             exit 0
           fi
-          git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Live Tamil + ${{ steps.build_main.outputs.others }} Static | $(date -u '+%Y-%m-%d %H:%M')"
+          git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Live Tamil + ${{ steps.build_main.outputs.static }} Static | $(date -u '+%Y-%m-%d %H:%M')"
           git push origin main

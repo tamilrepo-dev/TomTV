@@ -161,7 +161,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/History_HD_BTS/output/index.mpd
 =============================================== RASI ===============================================
 #EXTINF:-1 tvg-name="RASI" group-title="Rasi",RASI TV
 https://rasinetworks.in/live/rasitvhd/index.mpd
-#EXTINF:-1 tvg-name="RASI"group-title="Rasi",RASI TAMIL
+#EXTINF:-1 tvg-name="RASI" group-title="Rasi",RASI TAMIL
 https://rasinetworks.in/live/rasitamilhd/index.mpd
 #EXTINF:-1 tvg-name="RASI" group-title="Rasi", RASI MOVIES
 https://rasinetworks.in/live/rasimovieshd/index.mpd
@@ -180,13 +180,13 @@ https://rasinetworks.in/live/rasicomedyhd/index.mpd
 #EXTINF:-1 tvg-name="RASI" group-title="Rasi",RASI MUSIC
 https://rasinetworks.in/live/rasimusichd/index.mpd
 =============================================== ZEE CHANNELS ===============================================
-#EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai
+#EXTINF:-1 group-title= "Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai
 http://starshare.cx/live/PeH5kPWFfG/infamous7funny/181966.ts
-#EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai 2
+#EXTINF:-1 group-title= "Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai 2
 http://geoiptv.one:8880/live/80877716/24893488/179336.ts
-#EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil
+#EXTINF:-1 group-title= "Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil
 http://tv.123tv.to:8080/live/EyfkbpuDV8/kVe41owCzs/2786.ts
-#EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil 2
+#EXTINF:-1 group-title= "Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil 2
 http://geoiptv.one:8880/live/80877716/24893488/324776.ts
 =============================================== NEWS =============================================================
 #KODIPROP:inputstream.adaptive.license_type=clearkey

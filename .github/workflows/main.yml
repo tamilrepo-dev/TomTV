@@ -1,15 +1,15 @@
-name: Auto-Update Tamil M3U
-
-permissions:
-  contents: write
+name: Auto-Update Tamil & Main M3U
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
 
+permissions:
+  contents: write
+
 jobs:
-  update:
+  update-tamil:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
@@ -18,14 +18,12 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
       - name: Generate Tamil.m3u
+        id: gen_tamil
         run: |
           echo "📥 Fetching Jiotv.json..."
-          JSON_URL="https://jtv.pfy.workers.dev"
-          JSON=$(curl -sf \
+          JSON_URL="https://jtv.pfy.workers.dev"  # ← no trailing space!
+          JSON=$(curl -sfL --max-time 30 \
             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" \
             -H "Accept: application/json" \
             -H "Referer: https://playify.pages.dev/" \
@@ -34,8 +32,10 @@ jobs:
             echo "❌ Response is empty or HTML"
             exit 1
           fi
+
           echo "#EXTM3U" > tamil.m3u
-          # ✅ YOUR FINAL 31 CHANNELS — exact names, case-insensitive match
+
+          # ✅ Your 31 exact channel names — case-insensitive match
           echo "$JSON" | jq -r '
             def channels:
               if type == "array" then .
@@ -48,7 +48,7 @@ jobs:
                 end
               else []
               end;
-            # Your 31 exact channel names
+
             [
               "Sun TV HD",
               "Sun Music HD",
@@ -82,11 +82,9 @@ jobs:
             ] as $list |
             channels as $all |
             $list[] as $target |
-            # Find FIRST channel whose name (case-insensitive) matches $target EXACTLY
             ($all | map(select(
               (.name // .title // "") | ascii_downcase == ($target | ascii_downcase)
             )) | .[0]) as $match |
-            # Only output if match exists AND has link
             if ($match | type == "object") and ($match.link // $match.url // "") != "" then
               $match |
               (.name // .title // $target) as $name |
@@ -119,19 +117,22 @@ jobs:
               ] | join("\n")
             else empty end
           ' >> tamil.m3u
-          # Final report
+
           TOTAL=$(grep -c "^#EXTINF" tamil.m3u || echo 0)
           echo "✅ tamil.m3u created: $TOTAL / 31 channels found"
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"  # ✅ Fixed output
+
           if [ "$TOTAL" -gt 0 ]; then
             echo "📋 Channels included:"
             grep "^#EXTINF" tamil.m3u | sed 's/.*,//'
           else
-            echo "❌ None of the 31 channels were found in Jiotv.json"
+            echo "❌ None of the 31 channels were found"
             echo "🔍 Top 20 channel names in JSON:"
             echo "$JSON" | jq -r 'channels | .[0:20][] | .name // .title // "–"' 2>/dev/null
             exit 1
           fi
-      - name: Commit & Push
+
+      - name: Commit & Push tamil.m3u
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -140,5 +141,155 @@ jobs:
             echo "➡️ No changes — skipping commit"
             exit 0
           fi
-          git commit -m "✅ Auto-update Tamil M3U: $TOTAL/31 channels | $(date -u '+%Y-%m-%d %H:%M')"
+          git commit -m "✅ Auto-update Tamil M3U: ${{ steps.gen_tamil.outputs.total }}/31 channels | $(date -u '+%Y-%m-%d %H:%M')"
+          git push origin main
+
+  build-main:
+    needs: update-tamil
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
+
+      - name: Pull latest changes (ensure tamil.m3u is up to date)
+        run: git pull origin main
+
+      - name: Verify files
+        run: |
+          for f in tamil.m3u zee.m3u local.m3u; do
+            if [ ! -f "$f" ]; then
+              echo "❌ $f missing — aborting"
+              exit 1
+            fi
+          done
+          echo "✅ All required files present."
+
+      - name: Normalize line endings & clean BOM
+        run: |
+          sudo apt-get update && sudo apt-get install -y dos2unix
+          for f in tamil.m3u zee.m3u local.m3u; do
+            sed -i '1s/^\xEF\xBB\xBF//' "$f"      # Remove UTF-8 BOM
+            dos2unix "$f" 2>/dev/null || sed -i 's/\r$//' "$f"  # CRLF → LF
+            sed -i 's/[ \t]*$//' "$f"             # Trim trailing whitespace
+          done
+
+      - name: 🔍 Debug zee.m3u (structure check)
+        run: |
+          echo "🔍 Sample of zee.m3u (first 12 lines, escaped):"
+          head -n 12 zee.m3u | cat -A
+
+      - name: Build main.m3u
+        id: build_main
+        run: |
+          OUTPUT="main.m3u"
+          echo "#EXTM3U x-tvg-url=\"https://iptv-org.github.io/epg/guides/tamil.xml\"" > "$OUTPUT"
+
+          # 1️⃣ tamil.m3u — skip #EXTM3U, pass through
+          echo "# === tamil.m3u ===" >> "$OUTPUT"
+          awk '
+            /^#EXTM3U/ { next }
+            NF == 0 { next }
+            { print }
+          ' tamil.m3u >> "$OUTPUT"
+
+          # 2️⃣ zee.m3u → group-title="Tamil" (preserve logos & attributes)
+          echo "" >> "$OUTPUT"
+          echo "# === zee.m3u → Tamil (logos preserved) ===" >> "$OUTPUT"
+          awk '
+            BEGIN { in_extinf = 0; extinf_line = ""; }
+            /^#EXTINF:/ {
+              in_extinf = 1;
+              extinf_line = $0;
+              next;
+            }
+            in_extinf && /^[ \t]*http/ {
+              url = $0;
+              gsub(/^[ \t]+|[ \t]+$/, "", url);
+              if (length(url) == 0) { next; }
+
+              # Remove existing group-title (quoted/unquoted)
+              gsub(/group-title="[^"]*"/, "", extinf_line);
+              gsub(/group-title=[^, \t]*/, "", extinf_line);
+              gsub(/ +,/, ",", extinf_line);
+
+              if (match(extinf_line, /,[^,]*$/)) {
+                prefix = substr(extinf_line, 1, RSTART - 1);
+                suffix = substr(extinf_line, RSTART);
+                new_extinf = prefix " group-title=\"Tamil\"" suffix;
+                print new_extinf;
+                print url;
+              } else {
+                print extinf_line " group-title=\"Tamil\"";
+                print url;
+              }
+              in_extinf = 0;
+              next;
+            }
+            { next; }
+          ' zee.m3u >> "$OUTPUT"
+
+          # 3️⃣ local.m3u → group-title="Local Channels"
+          echo "" >> "$OUTPUT"
+          echo "# === local.m3u → Local Channels (logos preserved) ===" >> "$OUTPUT"
+          awk '
+            BEGIN { in_extinf = 0; extinf_line = ""; }
+            /^#EXTINF:/ {
+              in_extinf = 1;
+              extinf_line = $0;
+              next;
+            }
+            in_extinf && /^[ \t]*http/ {
+              url = $0;
+              gsub(/^[ \t]+|[ \t]+$/, "", url);
+              if (length(url) == 0) { next; }
+
+              gsub(/group-title="[^"]*"/, "", extinf_line);
+              gsub(/group-title=[^, \t]*/, "", extinf_line);
+              gsub(/ +,/, ",", extinf_line);
+
+              if (match(extinf_line, /,[^,]*$/)) {
+                prefix = substr(extinf_line, 1, RSTART - 1);
+                suffix = substr(extinf_line, RSTART);
+                new_extinf = prefix " group-title=\"Local Channels\"" suffix;
+                print new_extinf;
+                print url;
+              } else {
+                print extinf_line " group-title=\"Local Channels\"";
+                print url;
+              }
+              in_extinf = 0;
+              next;
+            }
+            { next; }
+          ' local.m3u >> "$OUTPUT"
+
+          # 📊 Stats
+          TAMIL=$(grep -c '^#EXTINF:-1.*group-title="Tamil"' "$OUTPUT" 2>/dev/null || echo 0)
+          LOCAL=$(grep -c '^#EXTINF:-1.*group-title="Local Channels"' "$OUTPUT" 2>/dev/null || echo 0)
+          TOTAL=$((TAMIL + LOCAL))
+          echo "✅ main.m3u built with $TOTAL channels:"
+          echo "   🎯 Tamil (incl. Zee): $TAMIL"
+          echo "   🏠 Local Channels: $LOCAL"
+          echo "tamil=$TAMIL" >> "$GITHUB_OUTPUT"   # ✅ Fixed output
+          echo "local=$LOCAL" >> "$GITHUB_OUTPUT"   # ✅ Fixed output
+
+          echo ""
+          echo "📌 First 3 Zee-derived entries:"
+          awk '/# === zee\.m3u/,/# === local\.m3u/ { if (/^#EXTINF/ || /^http/) print "  " $0 }' "$OUTPUT" | head -n 6
+
+      - name: Commit main.m3u
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add main.m3u
+          if git diff --cached --quiet; then
+            echo "➡️ No changes — skipping commit"
+            exit 0
+          fi
+          git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Tamil (incl. Zee w/ logos) + ${{ steps.build_main.outputs.local }} Local"
           git push origin main

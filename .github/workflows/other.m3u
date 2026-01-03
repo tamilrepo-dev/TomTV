@@ -1,5 +1,35 @@
 #EXTM3U
 
+#EXTM3U
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 1
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=636355&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 2
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=636361&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 3
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=636362&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 4
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019905&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 5
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019906&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 6
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019907&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 7
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019908&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 8
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019909&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 9
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019910&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 10
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019911&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 11
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019912&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 12
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019913&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 13
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1019914&extension=ts
+#EXTINF:-1 group-title="Tamil 24*7",Tamil Movies 14
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=1024831&extension=ts
+
 =============================================== RASI ===============================================
 
 #EXTINF:-1 tvg-name="RASI" group-title="Rasi",RASI TV

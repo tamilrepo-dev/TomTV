@@ -35,22 +35,49 @@ jobs:
           dos2unix "$OTHER_M3U" 2>/dev/null || sed -i 's/\r$//' "$OTHER_M3U"
           sed -i 's/[ \t]*$//' "$OTHER_M3U"
 
-      - name: Build main.m3u (Live Tamil + other.m3u)
+      - name: Download and normalize vod.m3u
+        id: download_vod
+        run: |
+          VOD_URL="https://raw.githubusercontent.com/tamilrepo-dev/VOD/refs/heads/main/vod.m3u"
+          VOD_FILE="vod_temp.m3u"
+          
+          echo "📥 Fetching VOD playlist from $VOD_URL"
+          curl -sfL --max-time 30 \
+            -H "User-Agent: Mozilla/5.0 (compatible; GitHub-Actions)" \
+            -o "$VOD_FILE" "$VOD_URL" || { echo "❌ Failed to download vod.m3u"; exit 1; }
+
+          if [ ! -s "$VOD_FILE" ]; then
+            echo "❌ vod.m3u is empty — aborting"
+            exit 1
+          fi
+
+          # Normalize
+          sed -i '1s/^\xEF\xBB\xBF//' "$VOD_FILE"
+          dos2unix "$VOD_FILE" 2>/dev/null || sed -i 's/\r$//' "$VOD_FILE"
+          sed -i 's/[ \t]*$//' "$VOD_FILE"
+
+          # Count entries
+          COUNT=$(grep -c '^#EXTINF:' "$VOD_FILE" 2>/dev/null || echo 0)
+          echo "✅ vod.m3u loaded — $COUNT channel(s)"
+          echo "vod_count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Build main.m3u (Live Tamil + other.m3u + VOD)
         id: build_main
         run: |
           OUTPUT="main.m3u"
           OTHER_M3U=".github/workflows/other.m3u"
+          VOD_FILE="vod_temp.m3u"
 
           # 1️⃣ Header
-          echo "#EXTM3U x-tvg-url=\"https://iptv-org.github.io/epg/guides/tamil.xml\"" > "$OUTPUT"
+          echo "#EXTM3U x-tvg-url=\"https://iptv-org.github.io/epg/guides/tamil.xml \"" > "$OUTPUT"
 
           # 2️⃣ ✅ Fetch & inject live Tamil channels (your 31 exact ones)
           echo "# === LIVE TAMIL (JioTV) ===" >> "$OUTPUT"
-          JSON_URL="https://ztv.pfy.workers.dev"
+          JSON_URL="https://ztv.pfy.workers.dev "
           JSON=$(curl -sfL --max-time 30 \
             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" \
             -H "Accept: application/json" \
-            -H "Referer: https://playify.pages.dev/" \
+            -H "Referer: https://playify.pages.dev/ " \
             "$JSON_URL") || { echo "❌ Failed to fetch JSON"; exit 1; }
           if [ -z "$JSON" ] || [ "${JSON:0:1}" = "<" ]; then
             echo "❌ Response is empty or HTML"
@@ -203,16 +230,40 @@ jobs:
             { print }
           ' "$OTHER_M3U" >> "$OUTPUT"
 
-          # 4️⃣ Stats
+          # 4️⃣ Append VOD section (with group-title="VOD")
+          echo "" >> "$OUTPUT"
+          echo "# === VOD (from tamilrepo-dev/VOD) ===" >> "$OUTPUT"
+          awk '
+            /^#EXTM3U/ { next }
+            /^#EXTINF:/ {
+              # Ensure group-title="VOD"
+              if ($0 ~ /group-title=/) {
+                gsub(/group-title="[^"]*"/, "group-title=\"VOD\"")
+              } else {
+                sub(/^-1 /, "-1 group-title=\"VOD\" ")
+                sub(/^-1,/, "-1 group-title=\"VOD\",")
+              }
+              print
+              getline
+              print  # print the URL line
+              next
+            }
+            /^#/ { print }  # preserve other comments/directives
+            NF == 0 { next }
+          ' "$VOD_FILE" >> "$OUTPUT"
+
+          # 5️⃣ Stats
           TAMIL=$(grep -c '^#EXTINF:-1.*group-title="Tamil"' "$OUTPUT" 2>/dev/null || echo 0)
-          STATIC=$(grep -c '^#EXTINF' "$OUTPUT" 2>/dev/null || echo 0)
-          STATIC=$((STATIC - TAMIL))
-          TOTAL=$((TAMIL + STATIC))
+          STATIC=$(grep -c '^#EXTINF.*group-title="[^"]*"' "$OUTPUT" | grep -v 'group-title="Tamil"' | grep -v 'group-title="VOD"' | wc -l)
+          VOD=$(grep -c '^#EXTINF.*group-title="VOD"' "$OUTPUT" 2>/dev/null || echo 0)
+          TOTAL=$((TAMIL + STATIC + VOD))
           echo "✅ main.m3u built with $TOTAL channels:"
           echo "   🎯 Live Tamil (JioTV): $LIVE_COUNT (found: $TAMIL)"
           echo "   📦 Static (other.m3u): $STATIC"
+          echo "   🎬 VOD (tamilrepo-dev): $VOD"
           echo "tamil=$TAMIL" >> "$GITHUB_OUTPUT"
           echo "static=$STATIC" >> "$GITHUB_OUTPUT"
+          echo "vod=${{ steps.download_vod.outputs.vod_count }}" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
 
           if [ "$TAMIL" -eq 0 ]; then
@@ -230,5 +281,5 @@ jobs:
             echo "➡️ No changes — skipping commit"
             exit 0
           fi
-          git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Live Tamil + ${{ steps.build_main.outputs.static }} Static | $(date -u '+%Y-%m-%d %H:%M')"
+          git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Live Tamil + ${{ steps.build_main.outputs.static }} Static + ${{ steps.build_main.outputs.vod }} VOD | $(date -u '+%Y-%m-%d %H:%M')"
           git push origin main

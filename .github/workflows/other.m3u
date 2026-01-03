@@ -27,12 +27,25 @@ https://rasinetworks.in/live/rasimusichd/index.mpd
 
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai
 http://starshare.cx/live/PeH5kPWFfG/infamous7funny/181966.ts
-#EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai 2
+#EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai
 http://geoiptv.one:8880/live/80877716/24893488/179336.ts
-
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://sbhgoldpro.org/play/live.php?mac=00:1A:79:B6:C5:6F&stream=281564&extension=ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://dux4.trimer.u.ruke.i.kosi.ambroziju.levatu.komunalno.prima.radnike.streamtv.to:8080/live/EyfkbpuDV8/kVe41owCzs/17692.ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://esogalaxiusnext.tech/play/live.php?mac=00:1A:79:57:B4:1B&stream=281564&extension=ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=155901&extension=ts
+#EXTINF:-1 tvg-id="zeethirai.in" tvg-name="Zee Thirai" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png" group-title="Tamil",Zee Thirai
+http://sbhgoldpro.org/play/live.php?mac=00:1A:79:B6:C5:6F&stream=281623&extension=ts
+#EXTINF:-1 tvg-id="zeethirai.in" tvg-name="Zee Thirai" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png" group-title="Tamil",Zee Thirai
+http://esogalaxiusnext.tech/play/live.php?mac=00:1A:79:57:B4:1B&stream=281623&extension=ts
+#EXTINF:-1 tvg-id="zeethirai.in" tvg-name="Zee Thirai" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png" group-title="Tamil",Zee Thirai
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=155912&extension=ts
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil
 http://tv.123tv.to:8080/live/EyfkbpuDV8/kVe41owCzs/2786.ts
-#EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil 2
+#EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil
 http://geoiptv.one:8880/live/80877716/24893488/324776.ts
 
 

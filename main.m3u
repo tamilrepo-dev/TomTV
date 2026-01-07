@@ -791,7 +791,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 https://player.mslivestream.net/mslive/9fe7c84b8253e88099d47237e0b7367c.sdp/playlist.m3u8
 
 # === VOD (from tamilrepo-dev/VOD) ===
-# Auto-updated: Wed Jan  7 20:54:12 UTC 2026
+# Auto-updated: Wed Jan  7 21:21:47 UTC 2026
 # Source: http://webhop.live
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ekgwx6fjFkn8lbvrup4moGGtPZY.jpg" group-title="VOD", Thandel (2025) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/474567.mp4
@@ -11285,13 +11285,13 @@ http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654775.mp4
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654777.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x62zaQDnfnAyGpgT55icmjXzcln.jpg" group-title="VOD", The New Fong Sai Yuk: Duel in the City of Death (2019) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/655967.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yUJQlklD7WlIXrkyFnM0KcTw6Xw.jpg" group-title="VOD", Alien: Reign of Man (2017)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yUJQlklD7WlIXrkyFnM0KcTw6Xw.jpg" group-title="VOD", Alien: Reign of Man (2017) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/657968.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rCp9VYqvBphiETtC86fGZFSXc63.jpg" group-title="VOD", Anacondas: Trail of Blood (2009)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rCp9VYqvBphiETtC86fGZFSXc63.jpg" group-title="VOD", Anacondas: Trail of Blood (2009) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/657969.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/meqnXVlEs9wEviEQrez3wtpZfkt.jpg" group-title="VOD", Drunken Fist (2021)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/meqnXVlEs9wEviEQrez3wtpZfkt.jpg" group-title="VOD", Drunken Fist (2021) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/657970.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/euiDFKWhKcRVRIX2uQZVEqm6p60.jpg" group-title="VOD", The Skin Painter (2018)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/euiDFKWhKcRVRIX2uQZVEqm6p60.jpg" group-title="VOD", The Skin Painter (2018) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/657971.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uezeMaxUfqhKzHU4JkqpSSHI639.jpg" group-title="VOD", Red Water (2003) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/558969.mp4
@@ -11417,8 +11417,6 @@ http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654432.mp4
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654776.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/n1tlCrfu3gIzPxUkRVN2Hjk7iIB.jpg" group-title="VOD", Mission: Chapter 1 (2024) (Tamil) (CAM)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/269695.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8FsGHBfKLAFjZJOAlr5EUpmOEvt.jpg" group-title="VOD", Ayalaan (2024) (Tamil)(CAM)
-http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/269957.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vDBfQgoM1WCIGgUXfvWotu8klTu.jpg" group-title="VOD", Merry Christmas (2024) (Tami)(CAM)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/269959.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8agxJ2Wv8EitO1xwF2HgxnyloCI.jpg" group-title="VOD", Blue Star (2024) (Tamil) (CAM)

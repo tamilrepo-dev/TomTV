@@ -213,14 +213,6 @@ https://rasinetworks.in/live/rasimusichd/index.mpd
 http://starshare.cx/live/PeH5kPWFfG/infamous7funny/181966.ts
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png",Zee Thirai
 http://geoiptv.one:8880/live/80877716/24893488/179336.ts
-#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
-http://sbhgoldpro.org/play/live.php?mac=00:1A:79:B6:C5:6F&stream=281564&extension=ts
-#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
-http://dux4.trimer.u.ruke.i.kosi.ambroziju.levatu.komunalno.prima.radnike.streamtv.to:8080/live/EyfkbpuDV8/kVe41owCzs/17692.ts
-#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
-http://esogalaxiusnext.tech/play/live.php?mac=00:1A:79:57:B4:1B&stream=281564&extension=ts
-#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
-http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=155901&extension=ts
 #EXTINF:-1 tvg-id="zeethirai.in" tvg-name="Zee Thirai" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png" group-title="Tamil",Zee Thirai
 http://sbhgoldpro.org/play/live.php?mac=00:1A:79:B6:C5:6F&stream=281623&extension=ts
 #EXTINF:-1 tvg-id="zeethirai.in" tvg-name="Zee Thirai" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeThiraiHD_Transparent_148bf888-7a23-42a7-b5b9-fcd69a285a2f.png" group-title="Tamil",Zee Thirai
@@ -231,6 +223,14 @@ http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=155912&extension=t
 http://tv.123tv.to:8080/live/EyfkbpuDV8/kVe41owCzs/2786.ts
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png",Zee Tamil
 http://geoiptv.one:8880/live/80877716/24893488/324776.ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://sbhgoldpro.org/play/live.php?mac=00:1A:79:B6:C5:6F&stream=281564&extension=ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://dux4.trimer.u.ruke.i.kosi.ambroziju.levatu.komunalno.prima.radnike.streamtv.to:8080/live/EyfkbpuDV8/kVe41owCzs/17692.ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://esogalaxiusnext.tech/play/live.php?mac=00:1A:79:57:B4:1B&stream=281564&extension=ts
+#EXTINF:-1 tvg-id="zeetamil.in" tvg-name="Zee Tamil" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ZeeTamilHD_Transparent_a5bfaeec-a389-4264-93d9-902a446ef336.png" group-title="Tamil",Zee Tamil
+http://sucur4.club/play/live.php?mac=00:1A:79:72:76:66&stream=155901&extension=ts
 =============================================== NEWS =============================================================
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4df8f920386e4346ba6b7d7ae935d668:c5fcaa8df5663365d938a50987f71b84
@@ -791,7 +791,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 https://player.mslivestream.net/mslive/9fe7c84b8253e88099d47237e0b7367c.sdp/playlist.m3u8
 
 # === VOD (from tamilrepo-dev/VOD) ===
-# Auto-updated: Thu Jan 15 12:53:20 UTC 2026
+# Auto-updated: Thu Jan 15 14:02:24 UTC 2026
 # Source: http://webhop.live
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg" group-title="VOD", Jana Nayagan (2026) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654778.mp4

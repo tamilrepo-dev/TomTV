@@ -791,7 +791,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 https://player.mslivestream.net/mslive/9fe7c84b8253e88099d47237e0b7367c.sdp/playlist.m3u8
 
 # === VOD (from tamilrepo-dev/VOD) ===
-# Auto-updated: Wed Jan 28 23:02:50 UTC 2026
+# Auto-updated: Wed Jan 28 23:37:30 UTC 2026
 # Source: http://webhop.live
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg" group-title="VOD", Jana Nayagan (2026) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/654778.mp4
@@ -11389,6 +11389,8 @@ http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/669776.mp4
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/669777.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg" group-title="VOD", I Am Legend (2007) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/670606.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY3NDcxN2UtNzNmMy00M2M0LWFmNDEtNGZiMGZmYmNlYTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Dubai (2001) (Tamil)
+http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/671279.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uezeMaxUfqhKzHU4JkqpSSHI639.jpg" group-title="VOD", Red Water (2003) (Tamil)
 http://webhop.live/movie/8zpo3GsVY7/beneficial2concern/558969.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/swU1gHR88apVPthor7RVv8AOa1j.jpg" group-title="VOD", Anali (2026) (Tamil) (CAM)

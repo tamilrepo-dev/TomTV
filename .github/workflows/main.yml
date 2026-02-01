@@ -38,7 +38,7 @@ jobs:
       - name: Download and normalize vod.m3u
         id: download_vod
         run: |
-          VOD_URL="https://raw.githubusercontent.com/tamilrepo-dev/VOD/refs/heads/main/vod.m3u"
+          VOD_URL="https://raw.githubusercontent.com/codedbyakil/VOD/refs/heads/main/vod.m3u"
           VOD_FILE="vod_temp.m3u"
           
           echo "📥 Fetching VOD playlist from $VOD_URL"

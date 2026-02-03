@@ -791,27 +791,27 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 https://player.mslivestream.net/mslive/9fe7c84b8253e88099d47237e0b7367c.sdp/playlist.m3u8
 
 # === VOD (from tamilrepo-dev/VOD) ===
-#EXTINF:-1 tvg-logo="" group-title="VOD", Jana Nayagan (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg" group-title="VOD", Jana Nayagan (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/654778.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", People We Meet on Vacation (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xzZaU0MN6L9oc1pl0RUXSB7hWwD.jpg" group-title="VOD", People We Meet on Vacation (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/659923.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Vazhikaaval (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/media/G-PNzeuasAQMYdq.jpg" group-title="VOD", Vazhikaaval (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/661665.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Anantha (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/y1GAbomStmF8dnvrsYzUGiqBFy4.jpg" group-title="VOD", Anantha (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/663215.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Vaa Vaathiyaar (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg" group-title="VOD", Vaa Vaathiyaar (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/663787.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", The Rip (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p4bW2sJKAwcHuLpfoZK7Zo63osA.jpg" group-title="VOD", The Rip (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664921.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Du.Ri.Me (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/j-Wk_v50tE4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCxp5ZU37Um4e5oDtU6k7LqJyGQqA" group-title="VOD", Du.Ri.Me (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666553.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Vinaipayan (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/zrq3mmQhomg/hqdefault.jpg" group-title="VOD", Vinaipayan (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666643.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Cheekatilo (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pO86EjZb7QyGYk5RW4Xm4UWe5Uv.jpg" group-title="VOD", Cheekatilo (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/667938.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", The Wrecking Crew (2026) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg" group-title="VOD", The Wrecking Crew (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671281.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Mellisai (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tkXbSUHh9XhEwUQkSiCZxUfbtYm.jpg" group-title="VOD", Mellisai (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673538.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dOpSxmD3FWfl6SK8SLXw9uwcO05.jpg" group-title="VOD", Ad Vitam (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/458621.mp4
@@ -1819,37 +1819,37 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/663225.mp4
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664315.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg" group-title="VOD", Bank Of Bhagyalakshmi (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664339.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Bha. Bha. Ba. (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fMDt3o7CVXDc84WIbOskya8XkSN.jpg" group-title="VOD", Bha. Bha. Ba. (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664923.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Caught Stealing (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cvda8s5J8YaHjTyEyXQpvD6f3iV.jpg" group-title="VOD", Caught Stealing (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665667.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Randaam Yaamam (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pds6zHAgiIp2ctqUR0CgJOUVPBP.jpg" group-title="VOD", Randaam Yaamam (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665678.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Rippan Swamy (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/miGiKbwWpMBdh49PpPvQP5u5DjI.jpg" group-title="VOD", Rippan Swamy (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665832.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Splitsville (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gxCv6kUdywxYzIXX6xYcmX5APUV.jpg" group-title="VOD", Splitsville (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665833.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Afterburn (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hrze9JXp2QJpc2WjLfSUtRxyYSb.jpg" group-title="VOD", Afterburn (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/667896.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", The Tale of Silyan (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pr4kRAXsQE97CpHv3s5L0cW9w38.jpg" group-title="VOD", The Tale of Silyan (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/670628.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", CHAMPION (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uiImCUouyg1BHgkk9CE4VCaePWW.jpg" group-title="VOD", CHAMPION (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671326.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Dhurandhar (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg" group-title="VOD", Dhurandhar (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671798.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Patang (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x4pfUqv2df1SLmHVLMWx5Uav9ew.jpg" group-title="VOD", Patang (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671799.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Sarvam Maya (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m8Y0IfmCDvrGtloQHf51Ly349en.jpg" group-title="VOD", Sarvam Maya (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671800.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Rabbit Trap (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sKnwnnmBpjo9BEskHtja6ToXUV1.jpg" group-title="VOD", Rabbit Trap (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/672358.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Gurram Paapi Reddy (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fo7TpR3Pyfxl7DjT3VlvMFgFeOd.jpg" group-title="VOD", Gurram Paapi Reddy (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/672359.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Pets on a Train (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/b10qy1KwrfmH0MGS2rBUJ0BxgYB.jpg" group-title="VOD", Pets on a Train (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/672360.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Padaiyaanda Maaveeraa (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d6/Padaiyaanda_Maaveeraa.jpg" group-title="VOD", Padaiyaanda Maaveeraa (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/672822.mp4
-#EXTINF:-1 tvg-logo="" group-title="VOD", Bhavani Ward 1997 (2025) (Tamil)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oMJJZ4iK6azA2P4S6xbwGr1yh3x.jpg" group-title="VOD", Bhavani Ward 1997 (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673535.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k7rEpZfNPB35FFHB00ZhXHKTL7X.jpg" group-title="VOD", Society of the Snow (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/264990.mp4

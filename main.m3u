@@ -793,65 +793,65 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 https://player.mslivestream.net/mslive/9fe7c84b8253e88099d47237e0b7367c.sdp/playlist.m3u8
 
 # === VOD (from tamilrepo-dev/VOD) ===
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg" group-title="VOD", Jana Nayagan (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Jana Nayagan (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/654778.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xzZaU0MN6L9oc1pl0RUXSB7hWwD.jpg" group-title="VOD", People We Meet on Vacation (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", People We Meet on Vacation (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/659923.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg" group-title="VOD", The Rajasaab (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Rajasaab (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/659924.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg" group-title="VOD", Parasakthi (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Parasakthi (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/661664.mp4
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/media/G-PNzeuasAQMYdq.jpg" group-title="VOD", Vazhikaaval (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vazhikaaval (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/661665.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/y1GAbomStmF8dnvrsYzUGiqBFy4.jpg" group-title="VOD", Anantha (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Anantha (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/663215.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg" group-title="VOD", Vaa Vaathiyaar (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vaa Vaathiyaar (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/663787.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p4bW2sJKAwcHuLpfoZK7Zo63osA.jpg" group-title="VOD", The Rip (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Rip (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664921.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wqofJvDrFv65QgyVmNI4loi9jZZ.jpg" group-title="VOD", Thalaivar Thambi Thalaimaiyil (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Thalaivar Thambi Thalaimaiyil (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664942.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/j-Wk_v50tE4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCxp5ZU37Um4e5oDtU6k7LqJyGQqA" group-title="VOD", Du.Ri.Me (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Du.Ri.Me (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666553.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/zrq3mmQhomg/hqdefault.jpg" group-title="VOD", Vinaipayan (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vinaipayan (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666643.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pO86EjZb7QyGYk5RW4Xm4UWe5Uv.jpg" group-title="VOD", Cheekatilo (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Cheekatilo (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/667938.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg" group-title="VOD", The Wrecking Crew (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Wrecking Crew (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671281.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tkXbSUHh9XhEwUQkSiCZxUfbtYm.jpg" group-title="VOD", Mellisai (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mellisai (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673538.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jFBu7tS0mlEZwYTkjJcKH48bV4m.jpg" group-title="VOD", Nari Nari Naduma Murari (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Nari Nari Naduma Murari (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673967.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qhNThwc72GqihJhXaP29Af5hJ2A.jpg" group-title="VOD", The Investigation of Lucy Letby (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Investigation of Lucy Letby (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674360.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z4g0yDlh2ApKrcBnTWV0RxbtLiC.jpg" group-title="VOD", Nilakanta (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Nilakanta (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674948.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9u7sUTYPPTxGCXbkcw8FTq50PnO.jpg" group-title="VOD", Redux Redux (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Redux Redux (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/675491.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg" group-title="VOD", Anaganaga Oka Raju (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Anaganaga Oka Raju (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/677378.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sfj6SLSzbzHN2633HcqabHFJz5y.jpg" group-title="VOD", Mana ShankaraVaraPrasad Garu (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mana ShankaraVaraPrasad Garu (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/677379.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nNSKlX31TMBaZX86tf0gjwbXLcF.jpg" group-title="VOD", Joe's College Road Trip (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Joe's College Road Trip (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/679235.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jfwHKRHRE2X4NTexdzblaioHH51.jpg" group-title="VOD", Love Me Love Me (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Love Me Love Me (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/679237.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2" group-title="VOD", Vanaveera (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vanaveera (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/679238.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fl7vU6bo6ShoaxPCC8WXnVZKD3i.jpg" group-title="VOD", Kaakaa (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Kaakaa (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/679253.mp4
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/media/HA43ZveaEAAjXbZ.jpg" group-title="VOD", LipLock (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", LipLock (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680589.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1LzdlxK9ctsnx7nXoGF1ImHKddl.jpg" group-title="VOD", Mercy (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mercy (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/682134.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wQxa1QybBNPCbGuf3B1SUl4w86D.jpg" group-title="VOD", Baby Girl (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Baby Girl (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/682567.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a41fqMDWRcZcDqidGcq10xmRoh.jpg" group-title="VOD", Chatha Pacha: The Ring of Rowdies (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Chatha Pacha: The Ring of Rowdies (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/682756.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iSdXPDyQTkXtDEgvzWxtq6f0Pud.jpg" group-title="VOD", Hotspot 2 Much (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Hotspot 2 Much (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/683378.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2APpdngTfSjPnMgKQASdEbjAOgb.jpg" group-title="VOD", Lucky the Superstar (2026) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Lucky the Superstar (2026) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/683497.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dOpSxmD3FWfl6SK8SLXw9uwcO05.jpg" group-title="VOD", Ad Vitam (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/458621.mp4
@@ -1915,6 +1915,8 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/679234.mp4
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/681304.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kz6oqKyKCjmR8V1JdnF9brp9DSn.jpg" group-title="VOD", The Dogs (2025) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/682570.mp4
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVQDWLbVJVmn_k7WuPcDoDMgD1AwDoQM5vA&s" group-title="VOD", Ondimuniyum Nallapadanum (2025) (Tamil)
+http://starshare.net:80/movie/Suryaaa/SURYAAAA/683498.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k7rEpZfNPB35FFHB00ZhXHKTL7X.jpg" group-title="VOD", Society of the Snow (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/264990.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kDdiOgmMXmnjH8zwisJTpAzK6ho.jpg" group-title="VOD", Sevappi (2024) (Tamil)
@@ -2985,147 +2987,147 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/526829.mp4
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/526830.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vZCGXfeAVjJyimFbt7LuC9DvN6D.jpg" group-title="VOD", C4 Cinta (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/527938.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4qhg2WY2XC87x5OVGeAiHl7C95S.jpg" group-title="VOD", Manamey (2024)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Manamey (2024)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/530117.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xLlByx2Yn6maBjEVbOHPlwBMiMK.jpg" group-title="VOD", Rakshana (2024)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Rakshana (2024)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/530485.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ifOazNzv2cNJ5CQjMV7cPXG2Lmy.jpg" group-title="VOD", The Seed of the Sacred Fig (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Seed of the Sacred Fig (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533220.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg" group-title="VOD", I Saw the TV Glow (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", I Saw the TV Glow (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533934.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qoKeP2PmDL6pshodCv6czlMZD3u.jpg" group-title="VOD", Janet Planet (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Janet Planet (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533935.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rzfqeLdHIysJGrspMICyedpqDqt.jpg" group-title="VOD", Paddington in Peru (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Paddington in Peru (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533938.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oranxontIQRmhuyQlkoAwxpeBYz.jpg" group-title="VOD", The Forge (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Forge (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533939.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mtkAdP8l8Hx9bIF2JChLdpy3VQL.jpg" group-title="VOD", Unsung Hero (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Unsung Hero (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533941.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/scAU7YudKNVeZlOfgSEWntAUSJ.jpg" group-title="VOD", Wicked Little Letters (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Wicked Little Letters (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/533942.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iO9t2fHvzA6PlDXSyIrnNs2s2AC.jpg" group-title="VOD", Preminchoddu (2024)(Multi Languages)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Preminchoddu (2024)(Multi Languages)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/536842.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iO9t2fHvzA6PlDXSyIrnNs2s2AC.jpg" group-title="VOD", Preminchoddu (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Preminchoddu (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/537019.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s4C9zf9A1xJ1M9NpmjHJS7AQtc0.jpg" group-title="VOD", Iravinil Aatam Par (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Iravinil Aatam Par (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/537037.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rUXH9mSPogTifJ13crbndO8qAx6.jpg" group-title="VOD", Seeran (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Seeran (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/537674.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/b8xNJ39aOtEk3I7MFt8XJuN2bGS.jpg" group-title="VOD", High Forces (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", High Forces (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/541344.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/65n64KT32r638HD8WS0mGL0vSGc.jpg" group-title="VOD", Lal Salaam (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Lal Salaam (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/541379.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vzhRFVVOMs7yXiRumBeqjwtChSj.jpg" group-title="VOD", Kumbaari (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Kumbaari (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/542599.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/huymdsJ2eTAEu28Ff6q9ppsS67E.jpg" group-title="VOD", Guy Manley - A Real Movie (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Guy Manley - A Real Movie (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/543535.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/n3ZnFqp988MWfIkT8OHofEJfjlt.jpg" group-title="VOD", The Prosecutor (2024) (TamiL)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Prosecutor (2024) (TamiL)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/544627.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOGVkNjdmNWEtMmZjZS00MDUzLWI0NDAtMTg0M2NjM2ZiOGJkXkEyXkFqcGc@._V1_QL75_UY266_CR1,0,180,266_.jpg" group-title="VOD", Paalum Pazhavum (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Paalum Pazhavum (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/550654.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/buXclUbb5mcZyug4TXzBrlYLsEP.jpg" group-title="VOD", EVOL (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", EVOL (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/552277.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1wzEnvllHBjRBx4O2cRAlbT4qtf.jpg" group-title="VOD", Take Cover (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Take Cover (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/552278.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c7e2CdlhOANd0qCNKUhpusaLSy8.jpg" group-title="VOD", Samadhana Pusthakam (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Samadhana Pusthakam (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/553071.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kDijoX2DQlymtUL44lCxJ1JLsGL.jpg" group-title="VOD", Out Come the Wolves (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Out Come the Wolves (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/556339.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8hRsZz6hMw0Hrh3n1eKBWYgsLaG.jpg" group-title="VOD", Pattaapakal (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Pattaapakal (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/556340.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oCf5O6uxooTvRwKVnLHwGqZUifq.jpg" group-title="VOD", Saturday Night (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Saturday Night (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/559330.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg" group-title="VOD", Oddity (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Oddity (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/563247.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNjFjODhhYzUtMmE0NC00ZjkxLWJlYmQtZmQ1NzVmYzI2MjMzXkEyXkFqcGc@._V1_QL75_UY266_CR17,0,180,266_.jpg" group-title="VOD", Mr and Mrs (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mr and Mrs (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/565439.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY2ZmY3MGEtMjkyNi00OWU4LTk3YWItZmRkNTk1OTA4YmE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", El 47 (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", El 47 (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/570907.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lZT5Cq4wkz7IeJEnz94U94xuEWD.jpg" group-title="VOD", Project Silence (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Project Silence (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/570908.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pRofNEH4lnP9ZFUDrra01Ma81Vi.jpg" group-title="VOD", Viduthalai: Part II (2024)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Viduthalai: Part II (2024)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/574327.mkv
-#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvVGKapYrt0XvJkdIdMUyIgnDfg7.jpg" group-title="VOD", A Mother's Special Love (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", A Mother's Special Love (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/574709.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xhLOOWi8d89Qjj1BfCHO2SSBvVF.jpg" group-title="VOD", Nadikar (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Nadikar (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/574710.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/adOgLdhbqOJgLZ7ufB0vGRUiIE.jpg" group-title="VOD", Sthanarthi Sreekuttan (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sthanarthi Sreekuttan (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/579931.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bC1r04ohuxv5feaGDzQ0lXz7Bbl.jpg" group-title="VOD", Woodwalkers (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Woodwalkers (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/581017.mkv
-#EXTINF:-1 tvg-logo="https://pic0.iqiyipic.com/image/20240808/6d/46/v_177219000_m_601_en_720_405.jpg" group-title="VOD", Kingkong Is Coming Back (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Kingkong Is Coming Back (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/583295.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qSc0AUvs8mRy00R9y8QYEHWIAQ9.jpg" group-title="VOD", Weekend in Taipei (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Weekend in Taipei (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/591257.mp4
-#EXTINF:-1 tvg-logo="https://assets-in.bmscdn.com/discovery-catalog/events/et00411545-aybtfzhezu-landscape.jpg" group-title="VOD", Mr. Celebrity (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mr. Celebrity (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/597609.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/c40f6674388c3b3a6ffcd616d04ae8283707ba10b48d0fd0555031fb05fd2a97.jpg" group-title="VOD", CHENTHA (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", CHENTHA (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/598629.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/n0D6wIreY27u1ccjGghyNcLL0Rd.jpg" group-title="VOD", Matinée (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Matinée (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/609186.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jsvk8e0HgITFX0gbDEjj6hOytsP.jpg" group-title="VOD", The Thicket (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Thicket (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/611674.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ioowXGeKNk8oMPZbCv5GbNfgcOc.jpg" group-title="VOD", Maya Puthagam (2024)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Maya Puthagam (2024)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/611757.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aIUZiciO0nMh8MrhmsTaMWZvEWK.jpg" group-title="VOD", Greedy People (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Greedy People (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/613924.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zD2UZkh0DwbDEMuOKIR7jgwgulZ.jpg" group-title="VOD", Monster Summer (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Monster Summer (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/614538.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg" group-title="VOD", Elevation (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Elevation (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/615018.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nML8rOI4GOiiEsXgknuhZeUF8M7.jpg" group-title="VOD", Striking Rescue (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Striking Rescue (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/617084.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5yUPKpy6ijvEBI5b6L0kJC30NHm.jpg" group-title="VOD", Handsome Guys (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Handsome Guys (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/617380.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nvaCnkl8RilLhVAQXPFei0tqkqW.jpg" group-title="VOD", Blood for Dust (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Blood for Dust (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/618022.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vVz4Rh4j6FQTq9eva3xEvCMumAh.jpg" group-title="VOD", Poolman (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Poolman (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/618496.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pmdgdb8biQLLzTjySZLPdK13KwM.jpg" group-title="VOD", Wanted Man (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Wanted Man (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/618497.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mu8LRWT9GHkfiyHm7kgxT6YNvMW.jpg" group-title="VOD", Late Night with the Devil (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Late Night with the Devil (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/619669.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3oQRG0bwPUqE4N4n8z2kAzr7e40.jpg" group-title="VOD", Maria (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Maria (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/619730.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/h5hONXZ4hPgniv1DXMB1IZohhpO.jpg" group-title="VOD", Bad Genius (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Bad Genius (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/621639.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mIChfDh0c8DAkNEEXeAavMbY6u2.jpg" group-title="VOD", Bhaje Vaayu Vegam (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Bhaje Vaayu Vegam (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/624643.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qWedkukryS8hAXHjP2SRCsVuYjf.jpg" group-title="VOD", Vina: Before 7 Days (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vina: Before 7 Days (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/624647.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ex3x0efk45SJWEdAenuJWeV6NyF.jpg" group-title="VOD", Ondu Sarala Prema Kathe (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Ondu Sarala Prema Kathe (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/632307.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/t13t7X10PCPKf7n4J4aIQ4Mj1VJ.jpg" group-title="VOD", Happy Birthday Luci (2024) (Taml)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Happy Birthday Luci (2024) (Taml)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/632608.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/g7M2Ja20PSU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBfFgoKRqD2ww2jnaQJTsF5gK4P-Q" group-title="VOD", B.D: Bheema Chitrundi (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", B.D: Bheema Chitrundi (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/632823.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BN2ZhZDJjNGItMDFhZC00NzRiLTg1ZTAtOGM3MzRjMTYxYzRkXkEyXkFqcGc@._V1_.jpg" group-title="VOD", Earthquake Underground (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Earthquake Underground (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/641610.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg" group-title="VOD", Angels Fallen: Warriors of Peace (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Angels Fallen: Warriors of Peace (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/642008.mkv
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/LDLM3zTfsAI/maxresdefault.jpg" group-title="VOD", Telisinavaallu (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Telisinavaallu (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643359.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNThhYThhNjQtMTQ3MS00ODEwLTkxYTItZmNkNjliMjg1NzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Sooriyanum sooriyakanthiyum (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sooriyanum sooriyakanthiyum (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643394.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bhFurHAxVXS0vPYIPwU2fNGOUHk.jpg" group-title="VOD", To Live Through Death (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", To Live Through Death (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/646116.mp4
-#EXTINF:-1 tvg-logo="https://images.moviebuff.com/0985b541-f1f1-4ea0-84e0-9b2e4c048dfa?w=500" group-title="VOD", Udhir Poomara Kathu (2024) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Udhir Poomara Kathu (2024) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647735.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mkfznkTshGBp88SFQQAGsr3R62z.jpg" group-title="VOD", Eye for an Eye 2 (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Eye for an Eye 2 (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/653315.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9YsVbXV4Qm1uO8D1iNLP0DAIBIt.jpg" group-title="VOD", SHELTERED (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", SHELTERED (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/655966.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/23YYV6nqEkrsBCxpfcNkY1ZUqOc.jpg" group-title="VOD", Salliyargal (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Salliyargal (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/655982.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/40hCB8YcFo2XT8yPUzpFdDmDwgS.jpg" group-title="VOD", Angammal (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Angammal (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/658905.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zjRNquWyWLnsn1DwGjZqJFUXdjb.jpg" group-title="VOD", Shell (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Shell (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664316.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9DZOU5qibB8WeXtzQ00Nl6tiqfw.jpg" group-title="VOD", The Wild Blade of Strangers (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Wild Blade of Strangers (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664922.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/81jPpZNvBP4t1mFXiZSBfC0pcpN.jpg" group-title="VOD", Shahkot (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Shahkot (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674886.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/utyfULeHcVAwyc3uAYMDpxeTLdN.jpg" group-title="VOD", Blade of Fury (2024) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Blade of Fury (2024) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/683496.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iMUIsV6u0pPqfv1j8tGxbJw40sw.jpg" group-title="VOD", Varisu (2023)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/136071.mkv
@@ -5239,31 +5241,31 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/575803.mkv
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/575804.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Aar0H7eLkiTFlnYwAJ7ms85gPj9.jpg" group-title="VOD", Sammathame (2022)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/593837.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sVO3gyoS5lMjVViMRgwRm0ZnAmn.jpg" group-title="VOD", Piercing Heart Sword (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Piercing Heart Sword (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/598621.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uESegTpq5HorPGrbjrA4r1vtRqW.jpg" group-title="VOD", Balamevvadu (2022)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Balamevvadu (2022)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/599101.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mmD0NVdhiRiCu64YKem5GK5PSfy.jpg" group-title="VOD", High Heat (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", High Heat (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/629345.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6zoA2yEfKs8hNFlk4AV28VpoT3I.jpg" group-title="VOD", Hot Seat (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Hot Seat (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/630288.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZDlkZjk0MzMtMzlhYi00NGU1LWFlZTgtZmI3ZmFhNTNiMDQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Maataraani Mounamidhi (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Maataraani Mounamidhi (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/630289.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m2Rbo9gPQK6Ra9xdKlRz1bbltfG.jpg" group-title="VOD", Chabutro (2022)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Chabutro (2022)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636560.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTA3YTAyYTMtMDY3My00M2QxLTg1YzctYTQ4YzRjOWIyOTc0XkEyXkFqcGc@._V1_.jpg" group-title="VOD", Varma Veedu Teda (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Varma Veedu Teda (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/641611.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e6oQ0L7LTh2xJ7Ag94XVmJduWDv.jpg" group-title="VOD", Sehari (2022)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sehari (2022)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/644651.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9wFzczx61gKMRREjqvl97dlbhCV.jpg" group-title="VOD", Uniki (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Uniki (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/644653.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/y0LjM612TshmHBL8fPfJreToE7S.jpg" group-title="VOD", On the Line (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", On the Line (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/645368.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pPCGH0Y892hvryh9iPZzNN86pYx.jpg" group-title="VOD", Fakt Mahilao Maate (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Fakt Mahilao Maate (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665350.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/svpc5CdExIpsNkX091K70HY8gpm.jpg" group-title="VOD", The Royal Nanny (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Royal Nanny (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665353.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zqAd0zsic4XIkWFRV7mn09dK1jP.jpg" group-title="VOD", Bullet Train Down (2022) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Bullet Train Down (2022) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671792.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg" group-title="VOD", 96 (2018)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/24588.mkv
@@ -11335,183 +11337,183 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/625526.mp4
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/625814.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qcLYofEhNh51Sk1jUWjmKHLzkqw.jpg" group-title="VOD", Sicario: Day of the Soldado (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/627098.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg" group-title="VOD", Spider-Man 3 (2007) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Spider-Man 3 (2007) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/630382.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6l4E0DxoBfUzyaihqLS49K1kGGu.jpg" group-title="VOD", Hex (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Hex (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/632816.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eeS2Fz3W9mHBRgORm4GqZQ4r4fR.jpg" group-title="VOD", Hot Stuff (1979) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Hot Stuff (1979) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/632817.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/47b1EwFqqSWxYna7NtUM7iML4oT.jpg" group-title="VOD", Final Fantasy: The Spirits Within (2001) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Final Fantasy: The Spirits Within (2001) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/633429.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jrFtbuUMDMnJtlSVg5DWHFhMMGp.jpg" group-title="VOD", The Hard Corps (2005) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Hard Corps (2005) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/633430.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bkUxZ9sFE7tn0NPRILqZVEPZRF9.jpg" group-title="VOD", The Penitent Thief (2021) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Penitent Thief (2021) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/633431.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kbJ8bjRr0U2wIhomhllEGUQ9071.jpg" group-title="VOD", The Take (2008) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Take (2008) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/635847.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uwIQWPYjk6d742sF4a2T3nkLRQP.jpg" group-title="VOD", One Day: Justice Delivered (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", One Day: Justice Delivered (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636373.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a8dlDPwo9mnorurL6ukIpyHZZd7.jpg" group-title="VOD", The Pirates of Somalia (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Pirates of Somalia (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636374.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9VFBtfMRKh5Yfd8jQ4kPhhD441D.jpg" group-title="VOD", The Terror Live (2013) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Terror Live (2013) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636375.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7beE2wimzlaTQPMOoTquKNPoymh.jpg" group-title="VOD", China Strike Force (2000)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", China Strike Force (2000)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636941.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg" group-title="VOD", Spider-Man 2 (2004)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Spider-Man 2 (2004)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636942.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg" group-title="VOD", Spider-Man (2002)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Spider-Man (2002)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/636943.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/18Hvx5MDIVnoexyehnGmMQE1lod.jpg" group-title="VOD", Thuppakki (2012) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Thuppakki (2012) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/637579.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkwODMzMDI3MF5BMl5BanBnXkFtZTcwMjc0MDQwOQ@@._V1_FMjpg_UX1000_.jpg" group-title="VOD", 3G: A Killer Connection (2013) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", 3G: A Killer Connection (2013) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/638164.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1BoNks9Ha4FtPX7GLD5JpAsnIfM.jpg" group-title="VOD", Goodbye Honey (2021) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Goodbye Honey (2021) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/638165.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tkikWPQazzv7KANP3OLmOF2hdc0.jpg" group-title="VOD", Sniff!!! (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sniff!!! (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/639085.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ya1y9xZ0RVyWyXYxougUeBO6vBd.jpg" group-title="VOD", Chaw (2009)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Chaw (2009)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640112.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8bFIPM8PatqvwtNO9ObjQ6PBDky.jpg" group-title="VOD", The Perfect Weapon (2016) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Perfect Weapon (2016) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640114.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7cPuXdXmDpqRE7B2e0mE8lwiZZI.jpg" group-title="VOD", Escape (2012) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Escape (2012) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640350.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6u2QXpe08XgUnFiuz6qOLzrMPih.jpg" group-title="VOD", Soldier of Destiny (2012)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Soldier of Destiny (2012)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640917.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dGjoPttcbKR5VWg1jQuNFB247KL.jpg" group-title="VOD", The Amazing Spider-Man 2 (2014)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Amazing Spider-Man 2 (2014)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640918.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg" group-title="VOD", The Amazing Spider-Man (2012) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Amazing Spider-Man (2012) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/640919.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOWVkZjZlYzgtMmVjMy00YmRjLTliM2EtZDI3OWRkMGE4OGRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Vennello Hai Hai (2016)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vennello Hai Hai (2016)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/641612.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tw3mdpa9Nxit9kkbXZOpkN3zcFY.jpg" group-title="VOD", God Bless the Broken Road (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", God Bless the Broken Road (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643358.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wBrmIH6jWqYXm3JbzMBn7sbNOlg.jpg" group-title="VOD", The Billion Dollar Threat (1979) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Billion Dollar Threat (1979) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643360.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xweS8KHCYU84GNNUpsrQ7CV8ZeV.jpg" group-title="VOD", People You May Know (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", People You May Know (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643952.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AbAFxgM403nvlw2ds7ydkaZIDbt.jpg" group-title="VOD", Seventy Times Seven (2012) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Seventy Times Seven (2012) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/643953.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pJfpDHlmVgMgg0VNCufj9gIhnbU.jpg" group-title="VOD", Mayabazar (1957) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mayabazar (1957) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/644364.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg" group-title="VOD", Avatar (2009)  (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Avatar (2009)  (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/644649.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pCuExuH8xF1sCGeRJR3fw4WlM16.jpg" group-title="VOD", Final Mission (1994) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Final Mission (1994) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/645366.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oXy8bx56Fx53sxozHubeLLDItF7.jpg" group-title="VOD", Mouna Raagam (1986) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mouna Raagam (1986) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/645389.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ruDNMK2FEt4fBtm2vmw7zNFG4OV.jpg" group-title="VOD", Beverly Hills Cowgirl Blues (1985) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Beverly Hills Cowgirl Blues (1985) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647185.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a1lCoSdAEYEs4ezvm5PcufEUVti.jpg" group-title="VOD", Let There Be Light (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Let There Be Light (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647187.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f1EfvwRWl16zv1C6M8mpwfS9i1F.jpg" group-title="VOD", Canvas (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Canvas (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647491.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yOJHNzsq7wdlkb0jTuIuUHNLsGA.jpg" group-title="VOD", The Legend of Zu 2 (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Legend of Zu 2 (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647492.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg" group-title="VOD", Home Alone 2: Lost in New York (1992) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Home Alone 2: Lost in New York (1992) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647719.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6uOadrCfle0n2LOOxHbgWEdnrm2.jpg" group-title="VOD", Home Alone 3 (1997) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Home Alone 3 (1997) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647720.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg" group-title="VOD", Home Alone (1990) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Home Alone (1990) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647721.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sHeWDDwkhojWJ3Lma8sqjWYU8wz.jpg" group-title="VOD", Evano Oruvan (2007) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Evano Oruvan (2007) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/647732.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg" group-title="VOD", Harry Potter and the Chamber of Secrets (2002) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Harry Potter and the Chamber of Secrets (2002) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/648365.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" group-title="VOD", Harry Potter and the Philosopher's Stone (2001) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Harry Potter and the Philosopher's Stone (2001) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/648366.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9LzxUu9GlIOptFM20hjsTrIxOJE.jpg" group-title="VOD", Love Lies Bleeding (2008) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Love Lies Bleeding (2008) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/650806.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oQJXi21kIRxRhB3lAqrjaO95tVT.jpg" group-title="VOD", The Killer Downstairs (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Killer Downstairs (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/651328.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9vLOmW27iY3oHLPknNwMGxfa0IT.jpg" group-title="VOD", The Storm Riders (1998) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Storm Riders (1998) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/651329.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNGIwZGJkM2QtZTgzOC00ZmY2LTg4NjMtMzllZjA2YzlhNmYxXkEyXkFqcGc@._V1_.jpg" group-title="VOD", Chellamay (2004) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Chellamay (2004) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/651334.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sctDiXrValMoGE0shBqiRxHNcdC.jpg" group-title="VOD", Beware the Children (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Beware the Children (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/652052.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3kxEEpTUvqnNtW9wPbflIKwpfkV.jpg" group-title="VOD", Swagatam (2021) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Swagatam (2021) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/652053.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oCj7EUvaHI7ahqzNGmcQNI9KGyl.jpg" group-title="VOD", Prince of Lanling: Blood Weeping Blade (2021) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Prince of Lanling: Blood Weeping Blade (2021) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/654775.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sqGiAqnPgW6XUv7oYRiahKnCxXo.jpg" group-title="VOD", Motives (2004) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Motives (2004) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/654777.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x62zaQDnfnAyGpgT55icmjXzcln.jpg" group-title="VOD", The New Fong Sai Yuk: Duel in the City of Death (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The New Fong Sai Yuk: Duel in the City of Death (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/655967.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yUJQlklD7WlIXrkyFnM0KcTw6Xw.jpg" group-title="VOD", Alien: Reign of Man (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Alien: Reign of Man (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/657968.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rCp9VYqvBphiETtC86fGZFSXc63.jpg" group-title="VOD", Anacondas: Trail of Blood (2009) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Anacondas: Trail of Blood (2009) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/657969.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/meqnXVlEs9wEviEQrez3wtpZfkt.jpg" group-title="VOD", Drunken Fist (2021) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Drunken Fist (2021) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/657970.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/euiDFKWhKcRVRIX2uQZVEqm6p60.jpg" group-title="VOD", The Skin Painter (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Skin Painter (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/657971.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oVRTSRaOFmx0I5LqNYKcKwibWfp.jpg" group-title="VOD", The Skin Painter 2 (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Skin Painter 2 (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/658598.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aJONVlmZHCPvdm4R6S4K1sFXr3n.jpg" group-title="VOD", Mountain Top (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mountain Top (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/662101.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ctViyxTFf7r89sUg7jWNqk7cbbT.jpg" group-title="VOD", Beyond Skyline (2017) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Beyond Skyline (2017) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/664924.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rZRidC4jcW0ka0D0OLSJNTGrQXq.jpg" group-title="VOD", Tapestry (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Tapestry (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665839.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rbziEQVh5qvFAeBCWCObfZlB0ea.jpg" group-title="VOD", The Storm Warriors (2009) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Storm Warriors (2009) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/665850.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg" group-title="VOD", Inception (2010) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Inception (2010) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666531.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/h5wrpVvjeq8kgClO0CtX2aNOcxU.jpg" group-title="VOD", Red Sky (2014) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Red Sky (2014) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666532.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/h9YNSts8gurpIAVKbuCCiBxQre0.jpg" group-title="VOD", Royal Monster Hunter (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Royal Monster Hunter (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666546.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x2qeRFE5ycMq10xq6yusQYueqIF.jpg" group-title="VOD", Operation Rogue (2014) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Operation Rogue (2014) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/666626.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oKIxisYGBMIxmflCrFgvBWMfxvY.jpg" group-title="VOD", In His Steps (2013) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", In His Steps (2013) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/669776.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzU5NGQ2NTItZmZkNi00MmQwLTgxNmItZWY3NTNlNTgwMTk5XkEyXkFqcGc@._V1_.jpg" group-title="VOD", Ennama Kannu (2000) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Ennama Kannu (2000) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/669777.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg" group-title="VOD", I Am Legend (2007) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", I Am Legend (2007) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/670606.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1rvzKV1d18EbDVaEd4VDzK3cgnY.jpg" group-title="VOD", The SpongeBob SquarePants Movie (2004) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The SpongeBob SquarePants Movie (2004) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/670607.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY3NDcxN2UtNzNmMy00M2M0LWFmNDEtNGZiMGZmYmNlYTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Dubai (2001) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Dubai (2001) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/671279.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/joyiyBwYY5QCpldqT1FzrTqsTJK.jpg" group-title="VOD", Savages (2012) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Savages (2012) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673536.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4hYsZXXtITVkeQBZeZ7enotcbXM.jpg" group-title="VOD", Budget Padmanabhan (2000) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Budget Padmanabhan (2000) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673537.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6B8pIy9jtiDqweVonX7jdb8hjI3.jpg" group-title="VOD", Vallavan (2006) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Vallavan (2006) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/673960.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c3sYdfCg1vz6DG4XlQRpu8baxvM.jpg" group-title="VOD", The Horde (2010) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Horde (2010) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674377.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vgpXmVaVyUL7GGiDeiK1mKEKzcX.jpg" group-title="VOD", Jumanji (1995) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Jumanji (1995) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674378.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/JXS3QQMIZVWZGyjy6fXzcC520Z.jpg" group-title="VOD", Always Kabhi Kabhi (2011) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Always Kabhi Kabhi (2011) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/674869.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/29ntxtmUwcA8RPVdEHStsaqrLGq.jpg" group-title="VOD", Decoys 2: Alien Seduction (2007) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Decoys 2: Alien Seduction (2007) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676066.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/meiO1ubAPBcHouNSSBisTThd27p.jpg" group-title="VOD", Once Upon a Time in Deadwood (2019) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Once Upon a Time in Deadwood (2019) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676648.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/khAn5Y4pW4W2TAYwEKFmtusLs2k.jpg" group-title="VOD", All I Need (2016) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", All I Need (2016) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676667.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5Z3wlA8sKdd3tPTZW8N1q3YEd5f.jpg" group-title="VOD", Luther (2003) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Luther (2003) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676668.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nvgnteJqmaxIyyaJrZuoRhYi5kb.jpg" group-title="VOD", Mounam Pesiyadhe (2002) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Mounam Pesiyadhe (2002) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676670.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3PUoSJh7ien2YAT3CzpPElw0kEX.jpg" group-title="VOD", Sweatshop (2009) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sweatshop (2009) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/677380.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ltYN2EF31kuVL1jnXwnwgYXNiVy.jpg" group-title="VOD", The Battle Between Chefs (2018) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", The Battle Between Chefs (2018) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/678303.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uGSrQnlrC90sfOnZ7SM3B0yiu3b.jpg" group-title="VOD", Kadhalar Dhinam (1999) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Kadhalar Dhinam (1999) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/679236.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTcyYzg5M2MtN2Y4Yi00NzEwLTkzMDItMTI1Y2JiOWFhNzgxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VOD", Camino (2015) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Camino (2015) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680585.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3jQZRqGnqTlwomPZyGziTSSIy6H.jpg" group-title="VOD", Java Heat (2013) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Java Heat (2013) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680586.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/whHPB7QsMbKVqyJwEKTMRiVKQXg.jpg" group-title="VOD", Radio (2009) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Radio (2009) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680587.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jTmQjGVifyNgZ2btubwMcdI5JJ7.jpg" group-title="VOD", Impulse (2008) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Impulse (2008) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/681305.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/npdoxONT7hHRThjzIS4XYjYoSOB.jpg" group-title="VOD", L.E.T.H.A.L. Ladies: Return to Savage Beach (1998) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", L.E.T.H.A.L. Ladies: Return to Savage Beach (1998) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/682133.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9IAHOSZpWxyHbK40WmUFJq2Bwuh.jpg" group-title="VOD", Chalo Dilli (2011) (Tamil)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Chalo Dilli (2011) (Tamil)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/683376.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/swU1gHR88apVPthor7RVv8AOa1j.jpg" group-title="VOD", Anali (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/655981.mp4
@@ -11545,15 +11547,15 @@ http://starshare.net:80/movie/Suryaaa/SURYAAAA/676133.mp4
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676647.mp4
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgwTUG8aj91wMPjd_v6PaFd3koeTQ0cnyg&s" group-title="VOD", Kadhal Kadhai Sollava (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/676669.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/awOmezCjTcdyjesrzowHIRYUUbE.jpg" group-title="VOD", Kaa - The Forest (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Kaa - The Forest (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680588.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4KeSDSdO327dOYcjbkeQPJ9c73I.jpg" group-title="VOD", My Lord (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", My Lord (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680590.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tOFlJbVwSscOFSIoHxqboSERKaZ.jpg" group-title="VOD", Pookie (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Pookie (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680591.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8TUdDDC26HQWNS7SdrYHSzyfYgZ.jpg" group-title="VOD", Sweety Naughty Crazy (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Sweety Naughty Crazy (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/680592.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ubYKOsmUXdz4GQgVndBAze8G5UM.jpg" group-title="VOD", Seetha Payanam (2026) (Tamil) (CAM)
+#EXTINF:-1 tvg-logo="" group-title="VOD", Seetha Payanam (2026) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/681055.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jALblsMMwdDuaOYnv4GGzJldZnD.jpg" group-title="VOD", Xtreme (2025) (Tamil) (CAM)
 http://starshare.net:80/movie/Suryaaa/SURYAAAA/455427.mp4

@@ -85,7 +85,7 @@ jobs:
           # 2️⃣ Fetch & inject live Tamil channels — SAFE curl + validation
           echo "# === LIVE TAMIL (JioTV) ===" >> "$OUTPUT"
 
-          JSON_URL="https://playify.pages.dev/Jiotv.json"  # ✅ NO TRAILING SPACE
+          JSON_URL="https://jtv.pfy.workers.dev"  # ✅ NO TRAILING SPACE
 
           echo "📡 Fetching live channel list from $JSON_URL"
           JSON_RAW=""

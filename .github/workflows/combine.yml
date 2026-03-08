@@ -2,26 +2,24 @@ name: Append Extra M3U
 
 on:
   workflow_run:
-    workflows: ["main"]   # must match the NAME inside main.yml
+    workflows: ["main"]
     types:
       - completed
     branches:
-      - main  # optional: specify which branch to monitor
-  workflow_dispatch:  # keep manual trigger for testing
+      - main  # important: specify the branch
+  workflow_dispatch:  # keep manual trigger
 
 permissions:
   contents: write
 
 jobs:
   append:
-    if: github.event.workflow_run.conclusion == 'success'
+    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # fetch all history for better commit tracking
 
       - name: Append playlists
         run: |

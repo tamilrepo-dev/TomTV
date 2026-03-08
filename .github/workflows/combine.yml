@@ -28,7 +28,7 @@ jobs:
 
           # YOUR PLAYLIST
           lists["AKIL_SOURCE"]="https://raw.githubusercontent.com/codedbyakil/Yogi/refs/heads/main/main.m3u"
-
+          lists["SuNxt"]="https://mahabuburbd.netlify.app/sun-next.m3u"
           # ADD MORE IF NEEDED
           lists["SPORTS"]="https://example.com/sports.m3u"
           lists["MOVIES"]="https://example.com/movies.m3u"

@@ -96,12 +96,24 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Kalaignar_TV_BTS/output/index.mpd
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5%20(Linux%3BAndroid%2015)%20ExoPlayerLib/2.11.6%20YGX/69.69.69.69
 #EXTHTTP:{"cookie":"__hdnea__=st=1772899229~exp=1772985629~acl=/*~hmac=b4a8c1fe89c761e8aa6cc4b9c484c7d54750d47fe99c9af358708c45bb1f41ca"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_TV_BTS/output/index.mpd
+#EXTINF:-1 group-title="Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png" ,Disney Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.5%20(Linux%3BAndroid%2015)%20ExoPlayerLib/2.11.6%20YGX/69.69.69.69
+#EXTHTTP:{"cookie":"__hdnea__=st=1772899229~exp=1772985629~acl=/*~hmac=b4a8c1fe89c761e8aa6cc4b9c484c7d54750d47fe99c9af358708c45bb1f41ca"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Junior.png" ,Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1b1f9702f7d853c1b198495f64924311:40e11e60a12dd6c154dfea0ffbd5bda8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5%20(Linux%3BAndroid%2015)%20ExoPlayerLib/2.11.6%20YGX/69.69.69.69
 #EXTHTTP:{"cookie":"__hdnea__=st=1772899229~exp=1772985629~acl=/*~hmac=b4a8c1fe89c761e8aa6cc4b9c484c7d54750d47fe99c9af358708c45bb1f41ca"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd
+#EXTINF:-1 group-title="Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hungama.png" ,Hungama
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=454f8353caac500d95d641e0c7cfe048:0aaca46ea0f5096335598781fbe590e4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.5%20(Linux%3BAndroid%2015)%20ExoPlayerLib/2.11.6%20YGX/69.69.69.69
+#EXTHTTP:{"cookie":"__hdnea__=st=1772899229~exp=1772985629~acl=/*~hmac=b4a8c1fe89c761e8aa6cc4b9c484c7d54750d47fe99c9af358708c45bb1f41ca"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd
 #EXTINF:-1 group-title="Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Super_Hungama.png" ,Super Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7a450f0820c4589690eb336c29f18da6:820e84119563b56d6e6f0bf514cbdc3c

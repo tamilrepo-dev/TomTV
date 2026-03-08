@@ -1,0 +1,42 @@
+name: Combine M3U
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["main"]
+    types:
+      - completed
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Combine playlists
+        run: |
+          echo "#EXTM3U" > main.m3u
+
+          declare -A lists
+          lists["AKIL_MAIN"]="https://raw.githubusercontent.com/codedbyakil/Yogi/refs/heads/main/main.m3u"
+          lists["PLAYLIST_1"]="https://example.com/list1.m3u"
+          lists["PLAYLIST_2"]="https://example.com/list2.m3u"
+
+          for name in "${!lists[@]}"
+          do
+            echo "" >> main.m3u
+            echo "# ----- $name -----" >> main.m3u
+            curl -s "${lists[$name]}" | grep -v '^#EXTM3U' >> main.m3u
+          done
+
+      - name: Commit update
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add main.m3u
+          git commit -m "Auto update combined M3U" || echo "No changes"
+          git push

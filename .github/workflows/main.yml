@@ -300,10 +300,3 @@ jobs:
           fi
           git commit -m "📺 main.m3u: ${{ steps.build_main.outputs.tamil }} Live Tamil + ${{ steps.build_main.outputs.static }} Static + ${{ steps.build_main.outputs.vod }} VOD | $(date -u '+%Y-%m-%d %H:%M')"
           git push origin main
-
-      - name: Trigger Append Extra M3U workflow
-        run: |
-          echo "🚀 Triggering Append Extra M3U workflow..."
-          gh workflow run "Append Extra M3U" --ref main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

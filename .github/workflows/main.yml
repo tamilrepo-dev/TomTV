@@ -21,23 +21,18 @@ jobs:
 
       - name: Verify other.m3u exists
         run: |
-          OTHER=".github/workflows/other.m3u"
-          [ -f "$OTHER" ] || { echo "❌ other.m3u missing"; exit 1; }
-          sed -i '1s/^\xEF\xBB\xBF//' "$OTHER"
-          dos2unix "$OTHER" 2>/dev/null || sed -i 's/\r$//' "$OTHER"
+          FILE=".github/workflows/other.m3u"
+          [ -f "$FILE" ] || { echo "❌ other.m3u missing"; exit 1; }
+          sed -i '1s/^\xEF\xBB\xBF//' "$FILE"
+          dos2unix "$FILE" 2>/dev/null || sed -i 's/\r$//' "$FILE"
 
       - name: Download VOD
         id: vod
         run: |
-          URL="https://raw.githubusercontent.com/codedbyakil/VOD/refs/heads/main/vod.m3u"
-          FILE="vod.m3u"
-
-          curl -sfL "$URL" -o "$FILE" || exit 1
-          sed -i '1s/^\xEF\xBB\xBF//' "$FILE"
-          dos2unix "$FILE" 2>/dev/null || sed -i 's/\r$//' "$FILE"
-
-          COUNT=$(grep -c '^#EXTINF:' "$FILE" || echo 0)
-          echo "vod_count=$COUNT" >> $GITHUB_OUTPUT
+          curl -sfL "https://raw.githubusercontent.com/codedbyakil/VOD/refs/heads/main/vod.m3u" -o vod.m3u || exit 1
+          sed -i '1s/^\xEF\xBB\xBF//' vod.m3u
+          dos2unix vod.m3u 2>/dev/null || sed -i 's/\r$//' vod.m3u
+          echo "vod_count=$(grep -c '^#EXTINF:' vod.m3u || echo 0)" >> $GITHUB_OUTPUT
 
       - name: Build main.m3u
         id: build
@@ -47,12 +42,11 @@ jobs:
           VOD="vod.m3u"
 
           echo "#EXTM3U" > "$OUT"
-          echo "# === LIVE TAMIL ===" >> "$OUT"
 
-          JSON=$(curl -sL "https://ztv.pfy.workers.dev")
-
-          # VALIDATION
+          JSON=$(curl -sL "https://noisy-truth-6766.streamstar18.workers.dev")
           echo "$JSON" | jq empty || { echo "❌ Invalid JSON"; exit 1; }
+
+          echo "# === LIVE (AUTO GROUP OR FALLBACK) ===" >> "$OUT"
 
           echo "$JSON" | jq -r '
             def channels:
@@ -65,6 +59,12 @@ jobs:
                 end
               else [] end;
 
+            channels as $all |
+
+            # detect if group/category exists
+            (any($all[]; has("group") or has("category"))) as $hasGroup |
+
+            # fallback list
             [
               "Sun TV HD","Sun Music HD","Sun Life","Adithya TV","KTV HD",
               "Star Vijay HD","Vijay Super HD","Colors Tamil","Jaya TV HD",
@@ -75,51 +75,61 @@ jobs:
               "D Tamil","History HD"
             ] as $list |
 
-            channels as $all |
+            if $hasGroup then
+              # ✅ GROUP MODE
+              $all[]
+              | (.group // .category // "") as $grp
+              | select($grp | ascii_downcase | test("tamil|kids"))
 
-            $list[] as $target |
+            else
+              # ✅ FALLBACK MODE
+              $list[] as $target
+              | ($all | map(select(
+                  (.name // .title // "") | ascii_downcase == ($target | ascii_downcase)
+                )) | .[0])
 
-            ($all | map(select(
-              (.name // .title // "") | ascii_downcase == ($target | ascii_downcase)
-            )) | .[0]) as $c |
+            end |
 
-            if ($c | type=="object") then
+            select(type=="object") |
 
-              ($c.name // $target) as $name |
-              ($c.id // "") as $id |
-              ($c.logo // "") as $logo |
+            # -------- COMMON PARSING --------
+            (.name // .title // "Unknown") as $name |
+            (.id // .tvg_id // "") as $id |
+            (.logo // .tvg_logo // "") as $logo |
 
-              ($c.mpd_url // $c.link // $c.url // "") as $raw |
-              ($c.license_url // $c.drmLicense // "") as $license |
-              ($c.headers.cookie // $c.cookie // "") as $cookie |
-              ($c.drmScheme // "") as $scheme |
+            (.mpd_url // .link // .url // .stream_url // "") as $raw |
+            (.license_url // .drmLicense // "") as $license |
+            (.headers.cookie // .cookie // "") as $cookie |
+            (.drmScheme // .drm_scheme // .drm // "") as $drmScheme |
 
-              ($raw | split("|")) as $p |
-              ($p[0]) as $url |
-              ($p[1] // "") as $drm |
+            ($raw | split("|")) as $p |
+            ($p[0]) as $url |
+            ($p[1] // "") as $drmPart |
 
-              (if ($drm|test("drmScheme="))
-                then ($drm|capture("drmScheme=(?<d>[^&]+)")|.d)
-                else $scheme end) as $finalScheme |
+            (if ($drmPart | test("drmScheme="))
+              then ($drmPart | capture("drmScheme=(?<d>[^&]+)") | .d)
+              else $drmScheme end) as $scheme |
 
-              if ($url|length)>0 then
+            select($url != "") |
 
-                "#EXTINF:-1 group-title=\"Tamil\" tvg-id=\"\($id)\" tvg-logo=\"\($logo)\",\($name)",
+            "#EXTINF:-1 " +
+              (if ($id|length)>0 then "tvg-id=\"\($id)\" " else "" end) +
+              "group-title=\"" + ((.group // .category // "Live")) + "\" " +
+              (if ($logo|length)>0 then "tvg-logo=\"\($logo)\" " else "" end) +
+              ",\($name | gsub(","; "\\,"))",
 
-                (if $finalScheme=="clearkey" and ($license|length)>0 then
-                  "#KODIPROP:inputstream.adaptive.license_type=clearkey\n#KODIPROP:inputstream.adaptive.license_key=\($license)"
-                else empty end),
+            (if $scheme=="clearkey" and ($license|length)>0 then
+              "#KODIPROP:inputstream.adaptive.license_type=clearkey\n#KODIPROP:inputstream.adaptive.license_key=\($license)"
+            else empty end),
 
-                (if ($cookie|length)>0 then
-                  "#EXTHTTP:{\"cookie\":\"\($cookie | gsub("\""; "\\\""))\"}"
-                else empty end),
+            "#EXTVLCOPT:http-user-agent=plaYtv/7.1.5",
 
-                $url,
-                ""
+            (if ($cookie|length)>0 then
+              "#EXTHTTP:{\"cookie\":\"\($cookie | gsub("\""; "\\\""))\"}"
+            else empty end),
 
-              else empty end
-
-            else empty end
+            $url,
+            ""
           ' >> "$OUT"
 
           # STATIC
@@ -138,6 +148,7 @@ jobs:
 
           TOTAL=$(grep -c '^#EXTINF' "$OUT" || echo 0)
           echo "total=$TOTAL" >> $GITHUB_OUTPUT
+
           echo "✅ Built main.m3u ($TOTAL entries)"
 
       - name: Commit

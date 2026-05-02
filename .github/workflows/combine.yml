@@ -30,7 +30,7 @@ jobs:
           lists["AKIL_SOURCE"]="https://raw.githubusercontent.com/codedbyakil/Yogi/refs/heads/main/main.m3u"
           lists["SuNxt"]="https://mahabuburbd.netlify.app/sun-next.m3u"
           lists["Backup"]="https://example.com/backup.m3u"
-          lists["Opplex"]=""
+  
           # ADD MORE IF NEEDED
           lists["SPORTS"]="https://example.com/sports.m3u"
           lists["MOVIES"]="https://example.com/movies.m3u"
